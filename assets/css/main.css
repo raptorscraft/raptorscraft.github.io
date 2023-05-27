@@ -10,7 +10,7 @@
 
 
     --radius: 0.5vh;
-    --padding: 0.2vh;
+    --padding: 2vh;
 }
 
 * {
@@ -30,7 +30,7 @@ body {
     color: var(--text);
 }
 
-main {
+.container {
     position: absolute;
 
     top: 0;
@@ -47,7 +47,6 @@ header {
     background: var(--menus);
 
     border-radius: var(--radius);
-    padding: var(--padding);
 
     display: flex;
     justify-content: space-between;
@@ -63,11 +62,46 @@ header {
 }
 
 .nav_item {
-    padding: 0 1vh;
+    padding: 1vh;
 }
 
 .nav_item:hover {
     text-shadow: 0.3vh 0.3vh 0.3vh var(--border);
 
     transition: 0.3s;
+}
+
+main {
+    background: var(--menus);
+
+    margin-top: 3vh;
+
+    border-radius: var(--radius);
+    padding: calc(var(--padding) + 1vh);
+
+    min-width: 10vh;
+    min-height: 10vh;
+}
+
+.for_logo {
+    font-size: 3vh;
+
+    text-transform: uppercase;
+
+    margin-bottom: 3vh;
+}
+
+.for_info {
+    text-align: justify;
+}
+
+
+/* RaptorsCraft Span */
+
+.RaptorsCraft {
+    color: rgb(255, 255, 182);
+}
+
+.RaptorsCraftIcon {
+    color: rgb(255, 255, 182);
 }
