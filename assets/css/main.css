@@ -1,6 +1,7 @@
 :root {
     --back: #8499B1;
     --menus: #A5C4D4;
+    --submenus: #beddec;
 
     --border: #7B6D8D;
     --text: #593F62;
@@ -39,6 +40,31 @@ body {
 
     width: 60vw;
     min-height: 100%;
+}
+
+@media only screen and (max-width: 735px) {
+    .container {
+        width: 100vw;
+    }   
+
+    header {
+        min-height: 10vh;
+
+        justify-content: center !important;
+    }
+
+    header, .nav_item {
+        padding: 0;  
+    }
+
+    .rules_block h3, .rules_block ul p, header {
+        font-size: 1.8vh;
+    }
+
+    .nav_section {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 header {
@@ -104,4 +130,44 @@ main {
 
 .RaptorsCraftIcon {
     color: rgb(255, 255, 182);
+}
+
+ul li {
+    text-decoration: none;
+}
+
+.rules_block {
+    margin: 3vh 0;
+
+    background: var(--submenus) ;
+
+    padding: var(--padding);
+
+    border-radius: var(--radius);
+}
+
+.rules_block h3 {
+    margin-bottom: 1vh;
+    color: var(--text);
+
+    background: var(--menus);
+    border-radius: var(--br);
+
+    padding-left: 0.5vh;
+}
+
+.rules_block ul p {
+    margin: 0.6vh 0;
+}
+
+.for_logo, .for_info {
+    cursor: default !important;
+}
+
+.social_link:hover {
+    color: var(--hover);
+
+    text-shadow: 0.1vh 0.1vh 0.1vh var(--hover);
+
+    transition: 0.3s;
 }
