@@ -171,3 +171,11 @@ ul li {
 
     transition: 0.3s;
 }
+
+.command {
+    background-color: rgb(172, 172, 172);
+
+    padding: 0.01vh;
+
+    border-radius: 0.3vh;
+}
