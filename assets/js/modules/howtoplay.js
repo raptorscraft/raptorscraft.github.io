@@ -69,6 +69,8 @@ export function toHowtoplay(forLogo, forInfo) {
                 После открытия корневой папки вы увидите ещё одну папку с названием "mods". В неё нужно переместить все файлы, которые вы скачали с Google Диска по ссылке, указанной ниже. В этой папке содержатся моды и необходимые для них библиотеки.
                 <br><br>
                 Моды: <a style = "color: blue; text-decoration: underline;"href = "https://drive.google.com/file/d/1QAHxky-gGm0oWYFwMr6e_8X3ZVDI-Dlf/view?usp=sharing" target = "_blank">*click*</a>
+                <br><br>
+                Всё необходимое для подключения к серверу будет публиковаться на нашем Discord сервере.
             </div>
         </div>
     `;
