@@ -24,3 +24,4 @@ allButtons.forEach((button, index) => button.addEventListener("click", () => {
             break;
     }
 }))
+

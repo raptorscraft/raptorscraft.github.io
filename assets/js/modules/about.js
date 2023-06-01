@@ -13,6 +13,8 @@ export function toAbout(forLogo, forInfo) {
     Специальные источники:<br>
     <i class="fa-solid fa-robot"></i> Генерация текстов, поиск материалов и помощь в разработке - <a href = "https://chat.openai.com/" target = "_blank" class = "social_link">ChatGPT</a>
     <br><br>
+    Модификации для игры: <a style = "color: blue; text-decoration: underline;"href = "https://drive.google.com/file/d/1QAHxky-gGm0oWYFwMr6e_8X3ZVDI-Dlf/view?usp=sharing" target = "_blank">*click*</a>
+    <br><br>
     <span style = "font-size: 0.7vh; color: yellow;">Информация будет пополняться</span>
     `;
 }
