@@ -44,7 +44,7 @@ export function toHowtoplay(forLogo, forInfo) {
                 <span class = "command">;leave-clan</span> - позволяет пользователю выйти из клана.
                 <br>
                 <span class = "command">/delete_clan [ID]</span> - позволяет пользователю удалить свой клан по его айди.
-                <br><br>
+                <br>
                 <span class = "command">;transfer-clan-ownership [ID / mention]</span> - передать пользователю права владельца клана.
                 У каждого клана есть своя отдельная роль, голосовой и текстовый каналы. Они видны и могут использоваться только участниками клана.
                 Участних может находиться только в одном клане.
